@@ -9,7 +9,6 @@ cores
     font-family:var(--fonte-padrao);
     margin: 0px;
     padding: 0px;
-
 }
 :root{
 --cor1:#4093f1;
@@ -19,13 +18,50 @@ cores
 
 --fonte-padrao:'Open Sans',cursive;
 }
+body{
+    background-color: var(--cor4);
+}
 header{
     
     background-image: linear-gradient(to bottom,var(--cor1), var(--cor2),var(--cor3));
     color: white;
-    min-height: 160px;
+    min-height: 90px;
     text-align: center;
     padding-top: 40px;
+}
+header > h1{
+    padding-bottom: 30px;
+    font-size: 3.5em;
+}
+nav{
+    text-align: center;
+    background-color: var(--cor3);
+    padding-bottom: 7px;
+}
+nav > a{
+    color: white;
+    padding: 0px 60px;
+    text-decoration: none;
+}
+nav > a:hover{
+    color: white;
+    text-decoration: underline;
+    
+}
+main{
+    background-color: var(--cor4);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+main h2{
+    padding: 30px;
+    font-size: 2.5em;
+    text-align: center;
+}
+main img{
+    display: block;
+    margin: auto;
 }
 footer{
     background-color: var(--cor3);
