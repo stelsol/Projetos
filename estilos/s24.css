@@ -9,6 +9,7 @@ cores
     font-family:var(--fonte-padrao);
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 :root{
 --cor1:#4093f1;
@@ -63,9 +64,28 @@ main img{
     display: block;
     margin: auto;
 }
+p{
+    padding: 15px;
+    font: size 24px;;
+}
+div.video{
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    justify-content: center;
+}
 footer{
     background-color: var(--cor3);
     text-align: center;
     font-size: 16px;
     padding: 10px;
+}
+footer > a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer > a:hover{
+    color: white;
+    text-decoration: underline;
 }
