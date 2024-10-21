@@ -41,7 +41,7 @@ nav{
 }
 nav > a{
     color: white;
-    padding: 0px 60px;
+    padding: 0px 40px;
     text-decoration: none;
 }
 nav > a:hover{
